@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jaya Gopika G R – Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF3EC;--ink:#12302B;--mute:#4D6661;--line:#C5D3C8;--water:#1E6F7A;--sun:#E8A317;--panel:#E1EBE2;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1D1B;--ink:#E4EEE6;--mute:#9DB5AE;--line:#27403B;--water:#5FC0CC;--sun:#F2B73A;--panel:#152825}}
+:root[data-theme="dark"]{--bg:#0E1D1B;--ink:#E4EEE6;--mute:#9DB5AE;--line:#27403B;--water:#5FC0CC;--sun:#F2B73A;--panel:#152825}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.6 'Newsreader',Georgia,serif}
+h1,h2,h3,.sans{font-family:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif}
+a{color:inherit;text-decoration-color:var(--sun);text-underline-offset:4px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:22px;flex-wrap:wrap;justify-content:flex-end;padding:16px 0;font:500 15px 'Bricolage Grotesque',sans-serif}
+nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--ink)}
+.hero{padding:64px 0 88px}
+h1{font-size:clamp(46px,8vw,92px);line-height:.95;font-weight:800;letter-spacing:-.03em;margin:0 0 22px}
+.lede{font-size:21px;max-width:34ch;margin:0 0 26px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{font:700 15px 'Bricolage Grotesque',sans-serif;padding:12px 20px;border-radius:999px;text-decoration:none;border:2px solid var(--ink)}
+.btn.p{background:var(--ink);color:var(--bg)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2.t{font-size:clamp(28px,4vw,40px);letter-spacing:-.02em;margin:0 0 30px}
+.proj{display:grid;grid-template-columns:200px 1fr;gap:12px 36px;padding:26px 0;border-bottom:1px solid var(--line)}
+.proj:first-of-type{padding-top:0}
+.proj h3{font-size:24px;margin:0 0 6px;line-height:1.15}
+.stack{font:500 14px 'Bricolage Grotesque',sans-serif;color:var(--water)}
+.proj ul,.job ul{margin:0;padding-left:20px}.proj li,.job li{margin-bottom:6px}
+.tag{display:inline-block;font:700 13px 'Bricolage Grotesque',sans-serif;background:var(--sun);color:#12302B;padding:3px 10px;border-radius:999px;margin-top:6px}
+.cols{display:grid;grid-template-columns:repeat(2,1fr);gap:40px}
+.skills div{display:grid;grid-template-columns:120px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.skills b{font-family:'Bricolage Grotesque',sans-serif}
+.list{list-style:none;padding:0;margin:0}.list li{padding:10px 0;border-bottom:1px solid var(--line)}
+.list b{font-family:'Bricolage Grotesque',sans-serif;color:var(--water)}
+.job h3{font-size:22px;margin:0}.job .sub{color:var(--mute);margin:2px 0 14px}
+#contact .box{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:start}
+#contact p{margin:0 0 22px;max-width:30ch}
+.mail{display:inline-block;font:700 17px 'Bricolage Grotesque',sans-serif;background:var(--sun);color:#12302B;padding:14px 24px;border-radius:999px;text-decoration:none}
+.mail:hover{filter:brightness(1.08)}
+.rows{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.rows a{display:flex;justify-content:space-between;gap:16px;align-items:baseline;padding:18px 4px;border-bottom:1px solid var(--line);text-decoration:none;font:700 20px 'Bricolage Grotesque',sans-serif;word-break:break-word}
+.rows a:hover{background:var(--panel)}
+.rows span{font:500 14px 'Bricolage Grotesque',sans-serif;color:var(--mute);flex:none}
+footer{padding:28px 0 40px;color:var(--mute);font-size:15px}
+@media (max-width:760px){.proj,.cols,#contact .box{grid-template-columns:1fr}#contact .box{gap:28px}.cols{gap:0}nav{justify-content:flex-start}.skills div{grid-template-columns:1fr;gap:2px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav aria-label="Sections"><a href="#work">Projects</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#recognition">Awards</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+  <div>
+    <h1>Jaya Gopika G R</h1>
+    <p class="lede">Information Technology graduate building full-stack web applications with Java, Spring Boot, React and Flask.</p>
+    <div class="btns"><a class="btn p" href="#work">See my projects</a><a class="btn" href="#contact">Get in touch</a></div>
+  </div>
+</header>
+
+<section id="work">
+  <h2 class="t">Projects</h2>
+  <article class="proj">
+    <div><div class="stack">Java · Spring Boot · React.js · MySQL · JWT</div></div>
+    <div><h3>Hospital Management System</h3>
+    <ul><li>Full-stack app with CRUD modules for patients, doctors, appointments, medical reports, prescriptions, billing and pharmacy.</li>
+    <li>JWT authentication with role-based access for Admin, Doctor and Receptionist users.</li>
+    <li>React frontend connected to a Spring Boot REST backend; APIs tested in Postman.</li></ul></div>
+  </article>
+  <article class="proj">
+    <div><div class="stack">HTML · CSS · JavaScript · Python · Flask · SQLite</div></div>
+    <div><h3>ISL Learning Platform for Hearing-Impaired Users</h3>
+    <ul><li>Web platform to learn and translate Indian Sign Language through interactive modules covering 200+ signs.</li>
+    <li>Flask REST API with SQLite for progress tracking and sessions across 3 learning tiers.</li>
+    <li>Responsive on mobile, tablet and desktop to widen access.</li></ul></div>
+  </article>
+  <article class="proj">
+    <div><div class="stack">IoT · Sensors</div></div>
+    <div><h3>Smart AquaAgri Ecosystem</h3>
+    <ul><li>Smart farming system that monitors soil moisture and temperature in real time and starts irrigation automatically when thresholds are breached.</li></ul>
+    <span class="tag">4th place, State-Level TANCAM 2025 · 80+ teams</span></div>
+  </article>
+  <article class="proj">
+    <div><div class="stack">HTML · CSS · JavaScript</div></div>
+    <div><h3>PureGlow – E-commerce Website</h3>
+    <ul><li>Fully responsive storefront with product listing pages, dynamic navigation menus and a cart.</li></ul></div>
+  </article>
+</section>
+
+<section id="experience">
+  <h2 class="t">Experience</h2>
+  <div class="job">
+    <h3>Web Development Intern</h3>
+    <p class="sub">M-Squared Software and Services Pvt Ltd</p>
+    <ul><li>Built a 5-page responsive e-commerce site with product cards, navigation menus and cart UI, tested in Chrome, Firefox and Safari.</li>
+    <li>Wrote mobile-first layouts with CSS Flexbox and Grid that render consistently from 320px to 1920px, with zero cross-browser issues.</li></ul>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="t">Skills</h2>
+  <div class="skills">
+    <div><b>Languages</b><span>Java, Python, JavaScript</span></div>
+    <div><b>Frontend</b><span>HTML, CSS, React.js, Flexbox &amp; Grid</span></div>
+    <div><b>Backend</b><span>Spring Boot, Flask, REST APIs, JWT Authentication</span></div>
+    <div><b>Databases</b><span>MySQL, SQLite, SQL</span></div>
+    <div><b>Tools</b><span>Git, GitHub, VS Code, Postman</span></div>
+    <div><b>Other</b><span>IoT and sensor integration</span></div>
+  </div>
+</section>
+
+<section id="recognition">
+  <div class="cols">
+    <div><h2 class="t">Awards</h2>
+    <ul class="list"><li><b>4th place</b> State-Level TANCAM 2025 Hackathon</li>
+    <li><b>1st prize</b> Full Stack Web Development Competition, Technical Symposium</li>
+    <li><b>2nd prize</b> Web Designing Competition, Technical Symposium</li></ul></div>
+    <div><h2 class="t">Education &amp; certificates</h2>
+    <ul class="list"><li><b>B.Tech Information Technology, 2022–2026</b><br>St. Xavier Catholic College of Engineering · CGPA 8.35</li>
+    <li>Cloud Computing, NPTEL</li><li>Java Programming, Coursera</li><li>Digital Productivity with AI, UNICEF YuWaah</li></ul></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="box">
+    <div>
+      <h2 class="t">Let's work together</h2>
+      <p>I'm looking for a software engineering role where I can keep building and learning.</p>
+      <a class="mail" href="https://mail.google.com/mail/?view=cm&fs=1&to=jayagopikagr@gmail.com&su=Hello%20Jaya" target="_blank" rel="noopener">Send me an email</a>
+    </div>
+    <ul class="rows">
+      <li><a href="mailto:jayagopikagr@gmail.com" id="cp"><span>Email (click to copy)</span>jayagopikagr@gmail.com</a></li>
+      <li><a href="tel:+917708174006"><span>Phone</span>77081 74006</a></li>
+      <li><a href="https://www.linkedin.com/in/jaya-gopika-g-r-757371288/" target="_blank" rel="noopener"><span>LinkedIn</span>Jaya Gopika G R</a></li>
+      <li><a href="https://github.com/jayagopika" target="_blank" rel="noopener"><span>GitHub</span>View my code</a></li>
+    </ul>
+  </div>
+</section>
+<footer>© 2026 Jaya Gopika G R</footer>
+</div>
+<script>
+document.getElementById('cp').addEventListener('click',function(e){
+  var a=this,l=a.firstChild,old=l.textContent;
+  if(!navigator.clipboard)return;
+  e.preventDefault();
+  navigator.clipboard.writeText('jayagopikagr@gmail.com').then(function(){
+    l.textContent='Copied!';setTimeout(function(){l.textContent=old},2000);
+  },function(){window.location.href='mailto:jayagopikagr@gmail.com'});
+});
+</script>
+</body>
+</html>
